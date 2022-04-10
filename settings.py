@@ -108,6 +108,7 @@ ROOT_URLCONF = "urls"
 WSGI_APPLICATION = "wsgi.application"
 
 INSTALLED_APPS = (
+    'admin_volt.apps.AdminVoltConfig',
     "django.contrib.admin",
     "django.contrib.admindocs",
     "django.contrib.auth",
